@@ -1,0 +1,79 @@
+[
+  {
+    "description": "    As a user I can add new employee to TinyPulse",
+    "elements": [
+      {
+        "description": "",
+        "id": "add-peopel;add-new-employee",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Add new employee",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 797350546
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I already logged in successfully",
+            "match": {
+              "location": "step-definitions/login-steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4408435701
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I add a new employee",
+            "match": {
+              "location": "step-definitions/dashboard-steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18300193763
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The new employee is added succesfully",
+            "match": {
+              "location": "step-definitions/dashboard-steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 884518759
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 59569781
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-peopel",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Add Peopel",
+    "tags": [],
+    "uri": "features/add_people.feature"
+  }
+]
